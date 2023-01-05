@@ -7,7 +7,7 @@ const Footer = () => {
 
     return (
 
-        <div> Footer </div>
+        <div> KSoto18 Ⓒ 2023 </div>
 
     )
        
