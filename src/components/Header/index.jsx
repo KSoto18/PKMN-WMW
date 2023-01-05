@@ -7,7 +7,11 @@ const Header = () => {
 
     return (
 
-        <div> Whats My Weakness?</div>
+        <div> 
+            
+            <h1>Whats My Weakness?</h1>
+            
+        </div>
 
     )
        

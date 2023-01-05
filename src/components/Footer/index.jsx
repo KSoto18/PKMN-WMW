@@ -2,15 +2,19 @@ import React from 'react';
 
 import './styles.css';
 
-const Footer = () => { 
+const Footer = () => {
 
 
     return (
 
-        <div> KSoto18 Ⓒ 2023 </div>
+        <div>
+            
+            <p>KSoto18 Ⓒ 2023</p>
+
+        </div>
 
     )
-       
+
 
 
 }

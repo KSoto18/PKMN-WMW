@@ -10,7 +10,9 @@ const Body = () => {
 
     return (
 
-        <div> THIS IS THE BODY
+        <div> 
+            
+            <p>THIS IS THE BODY</p>
 
             <div>
                 <Search />
