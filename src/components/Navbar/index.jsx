@@ -6,7 +6,21 @@ const Navbar = () => {
 
      return (
 
-         <div> Navbar </div>
+         <nav> 
+           
+           <a href= "/" className="home-title">Home</a>
+
+           <ul>
+            <li>
+                <a href="/about">About</a>
+            </li>
+            <li>
+                <a href="/contact">Contact</a>
+            </li>
+           </ul>
+
+
+         </nav>
 
      )
         
