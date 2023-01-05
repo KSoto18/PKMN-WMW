@@ -1,4 +1,8 @@
+// Main Imports
 import logo from './logo.svg';
+import { Routes, Route } from 'react-router-dom';
+
+// Styling
 import './App.css';
 
 // Components
@@ -12,18 +16,7 @@ import Contact from './pages/Contact';
 import Home from './pages/Home';
 
 function App() {
-  let component
-  switch (window.location.pathname) {
-    case "/":
-      component = <Home />
-      break
-    case "/about":
-      component = <About />
-      break
-    case "/contact":
-      component = <Contact />
-      break
-  }
+  
   return (
 
     <div className="App">
@@ -35,7 +28,11 @@ function App() {
       <div>
 
         <div className='container'>
-              {component}
+              <Routes>
+                <Route path="/" element={<Home />} />
+                <Route path="/about" element={<About />} />
+                <Route path="/contact" element={<Contact />} />
+              </Routes>
         </div>
 
         <Navbar />
