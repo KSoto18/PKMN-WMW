@@ -5,20 +5,29 @@ import './App.css';
 import Header from './components/Header'
 import Footer from './components/Footer';
 import Body from './components/Body';
+import Navbar from './components/Navbar'
 
 function App() {
   return (
 
     <div className="App">
 
+      <div>
      <Header />
+     </div>
 
-     <section>
+     <div>
       <Body />
-     </section>
+     </div>
 
-
+      <div>
+     <Navbar />
+    </div>
+   
+     <div>
      <Footer />
+     </div>
+
     </div>
 
   );
