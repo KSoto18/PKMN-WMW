@@ -5,6 +5,7 @@ import Box from '@mui/material/Box';
 import InputLabel from '@mui/material/InputLabel';
 import MenuItem from '@mui/material/MenuItem';
 import FormControl from '@mui/material/FormControl';
+import FormHelperText from '@mui/material/FormHelperText';
 import Select from '@mui/material/Select';
 
 
@@ -51,6 +52,8 @@ export default function TypeSelect() {
                             <MenuItem value={18}>Water</MenuItem>
 
                         </Select>
+
+                        <FormHelperText>Select Pokemon Type</FormHelperText>
 
                     </FormControl>
                 </Box>
