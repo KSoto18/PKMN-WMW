@@ -11,18 +11,57 @@ import Select from '@mui/material/Select';
 
 export default function TypeSelect() {
     const [type, setType] = React.useState('');
+    const [weakness, setWeakness] = React.useState('');
+
 
     const handleChange = (event) => {
         setType(event.target.value);
+        setWeakness(weaknessValue);
     };
+
+        let typeValue = type
+
+       function getWeakness() {
+
+        if (typeValue === 1) {
+            console.log("Selected Type Value: " + typeValue);
+            return ([
+                <div key={typeValue}> 
+                    <p>Fairy</p>
+                    <p>Fire</p>
+                    <p>Flying</p>
+                    <p>Fighting</p>
+                    <p>Poison</p>
+                    <p>Steel</p>
+                    <p>Ghost</p>
+                </div>
+            ])
+
+
+        } else if (typeValue === 2) {
+            console.log("Selected Type Value: " + typeValue);
+            return ([
+                <div key={typeValue}> 
+                    <p>Dark</p>
+                    <p>Fairy</p>
+                    <p>Fighting</p>
+                </div>
+            ])
+
+
+        }
+    }
+        
+    const weaknessValue = getWeakness();
+
 
     return (
 
-        <section>
+        <div>
 
             <div>
                 <Box sx={{ minWidth: 120 }}>
-                    <FormControl sx={{ width: 200}}>
+                    <FormControl sx={{ width: 200 }}>
 
                         <InputLabel id="type-select-label">Type</InputLabel>
                         <Select
@@ -31,7 +70,9 @@ export default function TypeSelect() {
                             value={type}
                             label="Type"
                             onChange={handleChange}
+                    
                         >
+                             
                             <MenuItem value={1}>Bug</MenuItem>
                             <MenuItem value={2}>Dark</MenuItem>
                             <MenuItem value={3}>Dragon</MenuItem>
@@ -57,8 +98,17 @@ export default function TypeSelect() {
 
                     </FormControl>
                 </Box>
+
             </div>
 
-        </section>
+            <div>
+
+                WEAKNESS (Selected type {type}) 
+                
+                {weaknessValue}
+
+            </div>
+
+        </div>
     );
 }
