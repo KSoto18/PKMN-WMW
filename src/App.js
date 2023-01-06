@@ -35,11 +35,13 @@ function App() {
               </Routes>
         </div>
 
+         <div className='navbar'>
         <Navbar />
+       </div>
 
       </div>
 
-      <div>
+      <div className='footer'>
         <Footer />
       </div>
 

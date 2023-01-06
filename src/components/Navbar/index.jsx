@@ -2,28 +2,31 @@ import React from 'react';
 
 import './styles.css';
 
-const Navbar = () => { 
+const Navbar = () => {
 
-     return (
+    return (
 
-         <nav> 
-           
-           <a href= "/" className="home-title">Home</a>
+        <nav className='nav'>
 
-           <ul>
-            <li>
-                <a href="/about">About</a>
-            </li>
-            <li>
-                <a href="/contact">Contact</a>
-            </li>
-           </ul>
+            <ul>
+                <li>
+                    <a href="/" className="home-title">Home</a>
+                </li>
+
+                <li>
+                    <a href="/about">About</a>
+                </li>
+                
+                <li>
+                    <a href="/contact">Contact</a>
+                </li>
+            </ul>
 
 
-         </nav>
+        </nav>
 
-     )
-        
+    )
+
 
 
 }

@@ -1,0 +1,15 @@
+.nav {
+    display: flex;
+    
+    
+    
+}
+
+.nav li {
+    color: blue;
+    display: flex;
+    margin: 3px;
+    
+   
+}
+
