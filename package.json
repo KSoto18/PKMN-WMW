@@ -1,7 +1,7 @@
 {
   "name": "pkmn-wmw",
   "version": "0.1.0",
-  "homepage": "https://KSoto18.github.io/PKMN-WMW/",
+  "homepage": "https://KSoto18.github.io/pkmn-wmw/",
   "private": true,
   "dependencies": {
     "@emotion/react": "^11.10.5",
