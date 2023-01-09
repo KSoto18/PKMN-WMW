@@ -16,8 +16,98 @@
 
 #type-select {
     background-color: var(--white);
+    font-family: 'Press Start 2P';
 }
+
+
+/* PKMN Type Colors */
 
 #bug {
     color: greenyellow;
+    font-weight: bold;
+}
+
+#dark {
+    color: #261217;
+    font-weight: bold;
+}
+
+#dragon {
+    color: #3c0261;
+    font-weight: bold;
+}
+
+#electric {
+    color: yellow;
+    font-weight: bold;
+}
+
+#fairy {
+    color: pink;
+    font-weight: bold;
+}
+
+#fighting {
+    color: orange;
+    font-weight: bold;
+}
+
+#fire {
+    color: red;
+    font-weight: bold;
+}
+
+#flying {
+    color: skyblue;
+    font-weight: bold;
+}
+
+#ghost {
+    color: #180524;
+    font-weight: bold;
+}
+
+#grass {
+    color: green;
+    font-weight: bold;
+}
+
+#ground {
+    color: brown;
+    font-weight: bold;
+}
+
+#ice {
+    color: aqua;
+    font-weight: bold;
+}
+
+#normal {
+    color: grey;
+    font-weight: bold;
+}
+
+#poison {
+    color: purple;
+    font-weight: bold;
+}
+
+#psychic {
+    color: hotpink;
+    font-weight: bold;
+}
+
+#rock {
+    color: slategray;
+    font-weight: bold;
+}
+
+#steel {
+    color: steelblue;
+    font-weight: bold;
+}
+
+#water {
+    color: blue;
+    font-weight: bold;
 }
