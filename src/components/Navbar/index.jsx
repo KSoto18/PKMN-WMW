@@ -2,37 +2,24 @@ import React from 'react';
 
 import './styles.css';
 
-const Navbar = () => {
+const Nav = ({ showAbout, showBody, showContact, active }) => {
 
     return (
 
-        <nav className='nav'>
+        <div className='navBar'>
+        
+           <nav className='nav navBtn justify-content-center'>
+            <h1 onClick={showBody} className={active === 1 ? 'links active' : 'links'}>HOME</h1>
+            <h1 onClick={showAbout} className={active === 1 ? 'links active' : 'links'}>ABOUT</h1>
+            <h1 onClick={showContact} className={active === 1 ? 'links active' : 'links'}>CONTACT</h1>
+           </nav>
+           
 
-            <ul>
-                <li>
-                    <a href="/" className="home-title">Home</a>
-                </li>
-
-                <li>
-                    <a href="/about">About</a>
-                </li>
-                
-                <li>
-                    <a href="/contact">Contact</a>
-                </li>
-            </ul>
-
-
-        </nav>
-
-    )
+        </div>
 
 
 
-}
+    );
+};
 
-
-
-
-
-export default Navbar;
+export default Nav;

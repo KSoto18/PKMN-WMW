@@ -11,8 +11,6 @@ import Footer from './components/Footer';
 import Navbar from './components/Navbar';
 
 // Pages
-import About from './pages/About';
-import Contact from './pages/Contact';
 import Home from './pages/Home';
 
 function App() {
@@ -27,13 +25,7 @@ function App() {
 
       <div>
 
-        <div className='container'>
-              <Routes>
-                <Route path="/" element={<Home />} />
-                <Route path="/about" element={<About />} />
-                <Route path="/contact" element={<Contact />} />
-              </Routes>
-        </div>
+      <Home />
 
          <div className='navbar'>
         <Navbar />
