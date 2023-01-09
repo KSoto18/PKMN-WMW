@@ -271,7 +271,7 @@ export default function TypeSelect() {
 
             <div>
 
-                WEAKNESS (Selected type {type}) 
+                WEAKNESS
                 
                 {weaknessValue}
 

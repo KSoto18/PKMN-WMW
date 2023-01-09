@@ -12,7 +12,7 @@ const Body = () => {
 
         <div> 
             
-            <p>THIS IS THE BODY</p>
+            {/* <p>THIS IS THE BODY</p> */}
 
             <div>
                 <Search />
