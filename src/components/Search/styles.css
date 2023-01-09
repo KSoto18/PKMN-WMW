@@ -111,3 +111,18 @@
     color: blue;
     font-weight: bold;
 }
+
+.weaknesses ul {
+    color: var(--white) ;
+    font-weight: bold;
+    list-style-type: none;
+}
+
+.weaknesses li {
+    display: flex;
+    justify-content: center;
+    border: black 1px solid;
+    margin: 2rem;
+    padding: 1rem;
+    font-size: xx-large;
+}

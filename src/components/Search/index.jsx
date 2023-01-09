@@ -23,21 +23,23 @@ export default function TypeSelect() {
         setWeakness(weaknessValue);
     };
 
-        let typeValue = type
+    let typeValue = type
 
-       function getWeakness() {
+    function getWeakness() {
 
         if (typeValue === 1) {
             console.log("Selected Type Value: " + typeValue);
             return ([
-                <div key={typeValue}> 
-                    <p>Fairy</p>
-                    <p>Fire</p>
-                    <p>Flying</p>
-                    <p>Fighting</p>
-                    <p>Poison</p>
-                    <p>Steel</p>
-                    <p>Ghost</p>
+                <div className='weaknesses' key={typeValue}>
+                    <ul>
+                    <li>Fairy</li>
+                    <li>Fire</li>
+                    <li>Flying</li>
+                    <li>Fighting</li>
+                    <li>Poison</li>
+                    <li>Steel</li>
+                    <li>Ghost</li>
+                    </ul>
                 </div>
             ]);
 
@@ -45,185 +47,219 @@ export default function TypeSelect() {
         } else if (typeValue === 2) {
             console.log("Selected Type Value: " + typeValue);
             return ([
-                <div key={typeValue}> 
-                    <p>Dark</p>
-                    <p>Fairy</p>
-                    <p>Fighting</p>
+                <div className='weaknesses' key={typeValue}>
+                    <ul>
+                    <li>Dark</li>
+                    <li>Fairy</li>
+                    <li>Fighting</li>
+                    </ul>
                 </div>
             ]);
 
         } else if (typeValue === 3) {
             console.log("Selected Type Value: " + typeValue);
             return ([
-                <div key={typeValue}> 
-                    <p>Steel</p>
+                <div className='weaknesses' key={typeValue}>
+                    <ul>
+                    <li>Steel</li>
+                    </ul>
                 </div>
             ]);
-        
+
         } else if (typeValue === 4) {
             console.log("Selected Type Value: " + typeValue);
             return ([
-                <div key={typeValue}> 
-                    <p>Dragon</p>
-                    <p>Electric</p>
-                    <p>Grass</p>
-                    <p>Ground</p>
+                <div className='weaknesses' key={typeValue}>
+                    <ul>
+                    <li>Dragon</li>
+                    <li>Electric</li>
+                    <li>Grass</li>
+                    <li>Ground</li>
+                    </ul>
                 </div>
             ]);
 
         } else if (typeValue === 5) {
             console.log("Selected Type Value: " + typeValue);
             return ([
-                <div key={typeValue}> 
-                    <p>Fire</p>
-                    <p>Poison</p>
-                    <p>Steel</p>
+                <div className='weaknesses' key={typeValue}>
+                    <ul>
+                    <li>Fire</li>
+                    <li>Poison</li>
+                    <li>Steel</li>
+                    </ul>
                 </div>
             ]);
-        
+
         } else if (typeValue === 6) {
             console.log("Selected Type Value: " + typeValue);
             return ([
-                <div key={typeValue}> 
-                    <p>Bug</p>
-                    <p>Flying</p>
-                    <p>Ghost</p>
-                    <p>Psychic</p>
-                    <p>Poison</p>
+                <div className='weaknesses' key={typeValue}>
+                    <ul>
+                    <li>Bug</li>
+                    <li>Flying</li>
+                    <li>Ghost</li>
+                    <li>Psychic</li>
+                    <li>Poison</li>
+                    </ul>
                 </div>
             ]);
 
         } else if (typeValue === 7) {
             console.log("Selected Type Value: " + typeValue);
             return ([
-                <div key={typeValue}> 
-                    <p>Dragon</p>
-                    <p>Fire</p>
-                    <p>Rock</p>
-                    <p>Water</p>
+                <div className='weaknesses' key={typeValue}>
+                    <ul>
+                    <li>Dragon</li>
+                    <li>Fire</li>
+                    <li>Rock</li>
+                    <li>Water</li>
+                    </ul>
                 </div>
             ]);
 
         } else if (typeValue === 8) {
             console.log("Selected Type Value: " + typeValue);
             return ([
-                <div key={typeValue}> 
-                    <p>Electric</p>
-                    <p>Rock</p>
-                    <p>Steel</p>
+                <div className='weaknesses' key={typeValue}>
+                    <ul>
+                    <li>Electric</li>
+                    <li>Rock</li>
+                    <li>Steel</li>
+                    </ul>
                 </div>
             ]);
 
         } else if (typeValue === 9) {
             console.log("Selected Type Value: " + typeValue);
             return ([
-                <div key={typeValue}> 
-                    <p>Dark</p>
-                    <p>Normal</p>
+                <div className='weaknesses' key={typeValue}>
+                    <ul>
+                    <li>Dark</li>
+                    <li>Normal</li>
+                    </ul>
                 </div>
             ]);
 
         } else if (typeValue === 10) {
             console.log("Selected Type Value: " + typeValue);
             return ([
-                <div key={typeValue}> 
-                    <p>Bug</p>
-                    <p>Fire</p>
-                    <p>Dragon</p>
-                    <p>Flying</p>
-                    <p>Poison</p>
-                    <p>Grass</p>
-                    <p>Steel</p>
+                <div className='weaknesses' key={typeValue}>
+                    <ul>
+                    <li>Bug</li>
+                    <li>Fire</li>
+                    <li>Dragon</li>
+                    <li>Flying</li>
+                    <li>Poison</li>
+                    <li>Grass</li>
+                    <li>Steel</li>
+                    </ul>
                 </div>
             ]);
-          
+
         } else if (typeValue === 11) {
             console.log("Selected Type Value: " + typeValue);
             return ([
-                <div key={typeValue}> 
-                    <p>Bug</p>
-                    <p>Flying</p>
-                    <p>Grass</p>
+                <div className='weaknesses' key={typeValue}>
+                    <ul>
+                    <li>Bug</li>
+                    <li>Flying</li>
+                    <li>Grass</li>
+                    </ul>
                 </div>
             ]);
 
         } else if (typeValue === 12) {
             console.log("Selected Type Value: " + typeValue);
             return ([
-                <div key={typeValue}> 
-                    <p>Fire</p>
-                    <p>Ice</p>
-                    <p>Steel</p>
-                    <p>Water</p>
+                <div className='weaknesses' key={typeValue}>
+                    <ul>
+                    <li>Fire</li>
+                    <li>Ice</li>
+                    <li>Steel</li>
+                    <li>Water</li>
+                    </ul>
                 </div>
             ]);
 
         } else if (typeValue === 13) {
             console.log("Selected Type Value: " + typeValue);
             return ([
-                <div key={typeValue}> 
-                    <p>Ghost</p>
-                    <p>Rock</p>
-                    <p>Steel</p>
+                <div className='weaknesses' key={typeValue}>
+                    <ul>
+                    <li>Ghost</li>
+                    <li>Rock</li>
+                    <li>Steel</li>
+                    </ul>
                 </div>
             ]);
 
         } else if (typeValue === 14) {
             console.log("Selected Type Value: " + typeValue);
             return ([
-                <div key={typeValue}> 
-                    <p>Ghost</p>
-                    <p>Ground</p>
-                    <p>Rock</p>
-                    <p>Steel</p>
-                    <p>Poison</p>
+                <div className='weaknesses' key={typeValue}>
+                    <ul>
+                    <li>Ghost</li>
+                    <li>Ground</li>
+                    <li>Rock</li>
+                    <li>Steel</li>
+                    <li>Poison</li>
+                    </ul>
                 </div>
             ]);
 
         } else if (typeValue === 15) {
             console.log("Selected Type Value: " + typeValue);
             return ([
-                <div key={typeValue}> 
-                    <p>Dark</p>
-                    <p>Psychic</p>
-                    <p>Steel</p>
+                <div className='weaknesses' key={typeValue}>
+                    <ul>
+                    <li>Dark</li>
+                    <li>Psychic</li>
+                    <li>Steel</li>
+                    </ul>
                 </div>
             ]);
-        
+
         } else if (typeValue === 16) {
             console.log("Selected Type Value: " + typeValue);
             return ([
-                <div key={typeValue}> 
-                    <p>Steel</p>
-                    <p>Ground</p>
-                    <p>Fighting</p>
+                <div className='weaknesses' key={typeValue}>
+                    <ul>
+                    <li>Steel</li>
+                    <li>Ground</li>
+                    <li>Fighting</li>
+                    </ul>
                 </div>
             ]);
 
         } else if (typeValue === 17) {
             console.log("Selected Type Value: " + typeValue);
             return ([
-                <div key={typeValue}> 
-                    <p>Electric</p>
-                    <p>Fire</p>
-                    <p>Steel</p>
-                    <p>Water</p>
+                <div className='weaknesses' key={typeValue}>
+                    <ul>
+                    <li>Electric</li>
+                    <li>Fire</li>
+                    <li>Steel</li>
+                    <li>Water</li>
+                    </ul>
                 </div>
             ]);
 
         } else if (typeValue === 18) {
             console.log("Selected Type Value: " + typeValue);
             return ([
-                <div key={typeValue}> 
-                    <p>Dragon</p>
-                    <p>Grass</p>
-                    <p>Water</p>
+                <div className='weaknesses' key={typeValue}>
+                    <ul>
+                    <li>Dragon</li>
+                    <li>Grass</li>
+                    <li className='blue'>Water</li>
+                    </ul>
                 </div>
             ]);
 
         }
     }
-        
+
     const weaknessValue = getWeakness();
 
 
@@ -242,9 +278,9 @@ export default function TypeSelect() {
                             value={type}
                             label="Type"
                             onChange={handleChange}
-                    
+
                         >
-                             
+
                             <MenuItem id='bug' value={1}>Bug</MenuItem>
                             <MenuItem id='dark' value={2}>Dark</MenuItem>
                             <MenuItem id='dragon' value={3}>Dragon</MenuItem>
@@ -278,10 +314,10 @@ export default function TypeSelect() {
                 <h2>WEAKNESSES</h2>
 
             </div>
-                
-                <div>
-                {weaknessValue}
-                </div>
+
+            <div className='weakBox'>
+                    {weaknessValue}
+            </div>
 
         </div>
     );
