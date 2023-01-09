@@ -13,15 +13,6 @@
   margin: 1rem;
 }
 
-.footer {
-  display: flex;
-  position: fixed;
-  justify-content: center;
-  bottom: 0%;
-  left: 45%;
-  right: 45%;
-}
-
 .navbar {
   display: flex;
   justify-content: center;

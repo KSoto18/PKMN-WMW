@@ -1,0 +1,10 @@
+
+#footer {
+    display: flex;
+    text-align: center;
+    font-family: 'Press Start 2P';
+    position: fixed;
+    bottom: 1rem;
+    right: 1rem;
+    margin: 1rem;
+}

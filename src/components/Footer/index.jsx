@@ -7,9 +7,9 @@ const Footer = () => {
 
     return (
 
-        <div>
+        <div id= 'footer'>
             
-            <p>KSoto18 Ⓒ 2023</p>
+            <p> KSoto18 Ⓒ 2023</p>
 
         </div>
 
