@@ -1,4 +1,8 @@
+// Main Imports
 import * as React from 'react';
+
+// Styling
+import './styles.css';
 
 // UI Imports
 import Box from '@mui/material/Box';
@@ -227,7 +231,7 @@ export default function TypeSelect() {
 
         <div>
 
-            <div>
+            <div className='searchBox'>
                 <Box sx={{ minWidth: 120 }}>
                     <FormControl sx={{ width: 200 }}>
 
@@ -241,24 +245,24 @@ export default function TypeSelect() {
                     
                         >
                              
-                            <MenuItem value={1}>Bug</MenuItem>
-                            <MenuItem value={2}>Dark</MenuItem>
-                            <MenuItem value={3}>Dragon</MenuItem>
-                            <MenuItem value={4}>Electric</MenuItem>
-                            <MenuItem value={5}>Fairy</MenuItem>
-                            <MenuItem value={6}>Fighting</MenuItem>
-                            <MenuItem value={7}>Fire</MenuItem>
-                            <MenuItem value={8}>Flying</MenuItem>
-                            <MenuItem value={9}>Ghost</MenuItem>
-                            <MenuItem value={10}>Grass</MenuItem>
-                            <MenuItem value={11}>Ground</MenuItem>
-                            <MenuItem value={12}>Ice</MenuItem>
-                            <MenuItem value={13}>Normal</MenuItem>
-                            <MenuItem value={14}>Poison</MenuItem>
-                            <MenuItem value={15}>Psychic</MenuItem>
-                            <MenuItem value={16}>Rock</MenuItem>
-                            <MenuItem value={17}>Steel</MenuItem>
-                            <MenuItem value={18}>Water</MenuItem>
+                            <MenuItem id='bug' value={1}>Bug</MenuItem>
+                            <MenuItem id='dark' value={2}>Dark</MenuItem>
+                            <MenuItem id='dragon' value={3}>Dragon</MenuItem>
+                            <MenuItem id='electric' value={4}>Electric</MenuItem>
+                            <MenuItem id='fairy' value={5}>Fairy</MenuItem>
+                            <MenuItem id='fighting' value={6}>Fighting</MenuItem>
+                            <MenuItem id='fire' value={7}>Fire</MenuItem>
+                            <MenuItem id='flying' value={8}>Flying</MenuItem>
+                            <MenuItem id='ghost' value={9}>Ghost</MenuItem>
+                            <MenuItem id='grass' value={10}>Grass</MenuItem>
+                            <MenuItem id='ground' value={11}>Ground</MenuItem>
+                            <MenuItem id='ice' value={12}>Ice</MenuItem>
+                            <MenuItem id='normal' value={13}>Normal</MenuItem>
+                            <MenuItem id='poison' value={14}>Poison</MenuItem>
+                            <MenuItem id='psychic' value={15}>Psychic</MenuItem>
+                            <MenuItem id='rock' value={16}>Rock</MenuItem>
+                            <MenuItem id='steel' value={17}>Steel</MenuItem>
+                            <MenuItem id='water' value={18}>Water</MenuItem>
 
                         </Select>
 
@@ -269,13 +273,15 @@ export default function TypeSelect() {
 
             </div>
 
-            <div>
+            <div className='title'>
 
-                WEAKNESS
-                
-                {weaknessValue}
+                <h2>WEAKNESSES</h2>
 
             </div>
+                
+                <div>
+                {weaknessValue}
+                </div>
 
         </div>
     );

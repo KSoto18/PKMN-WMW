@@ -1,5 +1,7 @@
+// Main Imports
 import React from 'react';
 
+// Styling
 import './styles.css';
 
 const Header = () => { 
