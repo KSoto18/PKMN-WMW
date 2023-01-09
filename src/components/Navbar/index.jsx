@@ -2,7 +2,7 @@ import React from 'react';
 
 import './styles.css';
 
-const Nav = ({ showAbout, showBody, showContact, active }) => {
+const Navbar = ({ showAbout, showBody, showContact, active }) => {
 
     return (
 
@@ -22,4 +22,4 @@ const Nav = ({ showAbout, showBody, showContact, active }) => {
     );
 };
 
-export default Nav;
+export default Navbar;

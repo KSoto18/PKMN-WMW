@@ -1,14 +1,9 @@
-// Main Imports
-import logo from './logo.svg';
-import { Routes, Route } from 'react-router-dom';
-
 // Styling
 import './App.css';
 
 // Components
 import Header from './components/Header';
 import Footer from './components/Footer';
-import Navbar from './components/Navbar';
 
 // Pages
 import Home from './pages/Home';
@@ -26,10 +21,6 @@ function App() {
       <div>
 
       <Home />
-
-         <div className='navbar'>
-        <Navbar />
-       </div>
 
       </div>
 
