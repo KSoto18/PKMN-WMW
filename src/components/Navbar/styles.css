@@ -16,10 +16,10 @@
 .nav h1 {
     color: var(--copper);
     display: flex;
+    align-items: center;
     margin: 1rem;
     padding: 10px;
-    border: black 1px solid;
-    
+    cursor: pointer;
    
 }
 
