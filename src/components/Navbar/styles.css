@@ -1,3 +1,11 @@
+:root {
+    --white: #ffffff;
+    --blue: #5c9ead;
+    --sapphire: #326273;
+    --copper: #a07178;
+    --notwhite: #eeeeee;
+   }
+
 .nav {
     display: flex;
     justify-content: center;
@@ -6,7 +14,7 @@
 }
 
 .nav h1 {
-    color: blue;
+    color: var(--copper);
     display: flex;
     margin: 1rem;
     padding: 10px;
