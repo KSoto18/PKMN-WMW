@@ -1,0 +1,17 @@
+:root {
+    --white: #ffffff;
+    --blue: #5c9ead;
+    --sapphire: #326273;
+    --copper: #a07178;
+    --notwhite: #eeeeee;
+   }
+
+.header {
+    padding: 1rem;
+}
+
+.header h1 {
+    color: var(--sapphire);
+    font-family: 'Press Start 2P';
+    font-size: 3rem;
+}
