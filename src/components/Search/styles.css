@@ -4,14 +4,36 @@
     --sapphire: #326273;
     --copper: #a07178;
     --notwhite: #eeeeee;
-   }
-   
+
+    /* PKMN Type Colors */
+
+    --bug: greenyellow;
+    --dark: #261217;
+    --dragon: #3c0261;
+    --electric: yellow;
+    --fairy: pink;
+    --fighting: orange;
+    --fire: red;
+    --flying: skyblue;
+    --ghost: #180524;
+    --grass: green;
+    --ground: brown;
+    --ice: aqua;
+    --normal: grey;
+    --poison: purple;
+    --psychic: hotpink;
+    --rock: slategray;
+    --steel: steelblue;
+    --water: blue;
+
+}
+
 
 .title {
     margin: 3rem;
     font-family: 'Press Start 2P';
     color: var(--blue);
-   
+
 }
 
 #type-select {
@@ -20,100 +42,105 @@
 }
 
 
-/* PKMN Type Colors */
+/* PKMN Type Colors (dropdown) */
 
 #bug {
-    color: greenyellow;
+    color: var(--bug);
     font-weight: bold;
 }
 
 #dark {
-    color: #261217;
+    color: var(--dark);
     font-weight: bold;
 }
 
 #dragon {
-    color: #3c0261;
+    color: var(--dragon);
     font-weight: bold;
 }
 
 #electric {
-    color: yellow;
+    color: var(--electric);
     font-weight: bold;
 }
 
 #fairy {
-    color: pink;
+    color: var(--fairy);
     font-weight: bold;
 }
 
 #fighting {
-    color: orange;
+    color: var(--fighting);
     font-weight: bold;
 }
 
 #fire {
-    color: red;
+    color: var(--fire);
     font-weight: bold;
 }
 
 #flying {
-    color: skyblue;
+    color: var(--flying);
     font-weight: bold;
 }
 
 #ghost {
-    color: #180524;
+    color: var(--ghost);
     font-weight: bold;
 }
 
 #grass {
-    color: green;
+    color: var(--grass);
     font-weight: bold;
 }
 
 #ground {
-    color: brown;
+    color: var(--ground);
     font-weight: bold;
 }
 
 #ice {
-    color: aqua;
+    color: var(--ice);
     font-weight: bold;
 }
 
 #normal {
-    color: grey;
+    color: var(--normal);
     font-weight: bold;
 }
 
 #poison {
-    color: purple;
+    color: var(--poison);
     font-weight: bold;
 }
 
 #psychic {
-    color: hotpink;
+    color: var(--psychic);
     font-weight: bold;
 }
 
 #rock {
-    color: slategray;
+    color: var(--rock);
     font-weight: bold;
 }
 
 #steel {
-    color: steelblue;
+    color: var(--steel);
     font-weight: bold;
 }
 
 #water {
-    color: blue;
+    color: var(--water);
     font-weight: bold;
 }
 
+/* Weaknesses Boxes */
+
 .weaknesses ul {
-    color: var(--white) ;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: var(--white);
     font-weight: bold;
     list-style-type: none;
 }
@@ -122,7 +149,83 @@
     display: flex;
     justify-content: center;
     border: black 1px solid;
+    border-radius: 50px;
     margin: 2rem;
     padding: 1rem;
     font-size: xx-large;
+    width: 20rem;
+}
+
+/* PKMN Type colors (weaknesses results) */
+
+.bugType {
+    background-color: var(--bug);
+}
+
+.darkType {
+    background-color: var(--dark);
+}
+
+.dragonType {
+  background-color: var(--dragon);
+}
+
+.electricType {
+    background-color: var(--electric);
+}
+
+.fairyType {
+    background-color: var(--fairy);
+}
+
+.fightingType {
+    background-color: var(--fighting);
+}
+
+.fireType {
+    background-color: var(--fire);
+}
+
+.flyingType {
+    background-color: var(--flying);
+}
+
+.ghostType {
+    background-color: var(--ghost);
+}
+
+.grassType {
+    background-color: var(--grass);
+}
+
+.groundType {
+    background-color: var(--ground);
+}
+
+.iceType {
+    background-color: var(--ice);
+}
+
+.normalType {
+    background-color: var(--normal);
+}
+
+.poisonType {
+    background-color: var(--poison);
+}
+
+.psychicType {
+    background-color: var(--psychic);
+}
+
+.rockType {
+    background-color: var(--rock);
+}
+
+.steelType {
+    background-color: var(--steel);
+}
+
+.waterType {
+    background-color: var(--water);
 }

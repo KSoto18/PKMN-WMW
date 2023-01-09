@@ -32,13 +32,13 @@ export default function TypeSelect() {
             return ([
                 <div className='weaknesses' key={typeValue}>
                     <ul>
-                    <li>Fairy</li>
-                    <li>Fire</li>
-                    <li>Flying</li>
-                    <li>Fighting</li>
-                    <li>Poison</li>
-                    <li>Steel</li>
-                    <li>Ghost</li>
+                    <li className='fairyType'>Fairy</li>
+                    <li className= 'fireType'>Fire</li>
+                    <li className= 'flyingType'>Flying</li>
+                    <li className= 'fightingType'>Fighting</li>
+                    <li className='poisonType'>Poison</li>
+                    <li className='steelType'>Steel</li>
+                    <li className='ghostType'>Ghost</li>
                     </ul>
                 </div>
             ]);
@@ -49,9 +49,9 @@ export default function TypeSelect() {
             return ([
                 <div className='weaknesses' key={typeValue}>
                     <ul>
-                    <li>Dark</li>
-                    <li>Fairy</li>
-                    <li>Fighting</li>
+                    <li className='darkType'>Dark</li>
+                    <li className='fairyType'>Fairy</li>
+                    <li className= 'fightingType'>Fighting</li>
                     </ul>
                 </div>
             ]);
@@ -61,7 +61,7 @@ export default function TypeSelect() {
             return ([
                 <div className='weaknesses' key={typeValue}>
                     <ul>
-                    <li>Steel</li>
+                    <li className='steelType'>Steel</li>
                     </ul>
                 </div>
             ]);
@@ -71,9 +71,9 @@ export default function TypeSelect() {
             return ([
                 <div className='weaknesses' key={typeValue}>
                     <ul>
-                    <li>Dragon</li>
-                    <li>Electric</li>
-                    <li>Grass</li>
+                    <li className= 'dragonType'>Dragon</li>
+                    <li className='electricType'>Electric</li>
+                    <li className= 'grassType'>Grass</li>
                     <li>Ground</li>
                     </ul>
                 </div>
@@ -84,9 +84,9 @@ export default function TypeSelect() {
             return ([
                 <div className='weaknesses' key={typeValue}>
                     <ul>
-                    <li>Fire</li>
-                    <li>Poison</li>
-                    <li>Steel</li>
+                    <li className= 'fireType'>Fire</li>
+                    <li className='poisonType'>Poison</li>
+                    <li className='steelType'>Steel</li>
                     </ul>
                 </div>
             ]);
@@ -96,11 +96,11 @@ export default function TypeSelect() {
             return ([
                 <div className='weaknesses' key={typeValue}>
                     <ul>
-                    <li>Bug</li>
-                    <li>Flying</li>
-                    <li>Ghost</li>
-                    <li>Psychic</li>
-                    <li>Poison</li>
+                    <li className='bugType'>Bug</li>
+                    <li className= 'flyingType'>Flying</li>
+                    <li className='ghostType'>Ghost</li>
+                    <li className='psychichType'>Psychic</li>
+                    <li className='poisonType'>Poison</li>
                     </ul>
                 </div>
             ]);
@@ -110,10 +110,10 @@ export default function TypeSelect() {
             return ([
                 <div className='weaknesses' key={typeValue}>
                     <ul>
-                    <li>Dragon</li>
-                    <li>Fire</li>
-                    <li>Rock</li>
-                    <li>Water</li>
+                    <li className= 'dragonType'>Dragon</li>
+                    <li className= 'fireType'>Fire</li>
+                    <li className='rockType'>Rock</li>
+                    <li className='waterType'>Water</li>
                     </ul>
                 </div>
             ]);
@@ -123,9 +123,9 @@ export default function TypeSelect() {
             return ([
                 <div className='weaknesses' key={typeValue}>
                     <ul>
-                    <li>Electric</li>
-                    <li>Rock</li>
-                    <li>Steel</li>
+                    <li className='electricType'>Electric</li>
+                    <li className='rockType'>Rock</li>
+                    <li className='steelType'>Steel</li>
                     </ul>
                 </div>
             ]);
@@ -135,8 +135,8 @@ export default function TypeSelect() {
             return ([
                 <div className='weaknesses' key={typeValue}>
                     <ul>
-                    <li>Dark</li>
-                    <li>Normal</li>
+                    <li className='darkType'>Dark</li>
+                    <li className='normalType'>Normal</li>
                     </ul>
                 </div>
             ]);
@@ -146,13 +146,13 @@ export default function TypeSelect() {
             return ([
                 <div className='weaknesses' key={typeValue}>
                     <ul>
-                    <li>Bug</li>
-                    <li>Fire</li>
-                    <li>Dragon</li>
-                    <li>Flying</li>
-                    <li>Poison</li>
-                    <li>Grass</li>
-                    <li>Steel</li>
+                    <li className='bugType'>Bug</li>
+                    <li className= 'fireType'>Fire</li>
+                    <li className= 'dragonType'>Dragon</li>
+                    <li className= 'flyingType'>Flying</li>
+                    <li className='poisonType'>Poison</li>
+                    <li className= 'grassType'>Grass</li>
+                    <li className='steelType'>Steel</li>
                     </ul>
                 </div>
             ]);
@@ -162,9 +162,9 @@ export default function TypeSelect() {
             return ([
                 <div className='weaknesses' key={typeValue}>
                     <ul>
-                    <li>Bug</li>
-                    <li>Flying</li>
-                    <li>Grass</li>
+                    <li className='bugType'>Bug</li>
+                    <li className= 'flyingType'>Flying</li>
+                    <li className= 'grassType'>Grass</li>
                     </ul>
                 </div>
             ]);
@@ -174,10 +174,10 @@ export default function TypeSelect() {
             return ([
                 <div className='weaknesses' key={typeValue}>
                     <ul>
-                    <li>Fire</li>
-                    <li>Ice</li>
-                    <li>Steel</li>
-                    <li>Water</li>
+                    <li className= 'fireType'>Fire</li>
+                    <li className='iceType'>Ice</li>
+                    <li className='steelType'>Steel</li>
+                    <li className='waterType'>Water</li>
                     </ul>
                 </div>
             ]);
@@ -187,9 +187,9 @@ export default function TypeSelect() {
             return ([
                 <div className='weaknesses' key={typeValue}>
                     <ul>
-                    <li>Ghost</li>
-                    <li>Rock</li>
-                    <li>Steel</li>
+                    <li className='ghostType'>Ghost</li>
+                    <li className='rockType'>Rock</li>
+                    <li className='steelType'>Steel</li>
                     </ul>
                 </div>
             ]);
@@ -199,11 +199,11 @@ export default function TypeSelect() {
             return ([
                 <div className='weaknesses' key={typeValue}>
                     <ul>
-                    <li>Ghost</li>
-                    <li>Ground</li>
-                    <li>Rock</li>
-                    <li>Steel</li>
-                    <li>Poison</li>
+                    <li className='ghostType'>Ghost</li>
+                    <li className='groundType'>Ground</li>
+                    <li className='rockType'>Rock</li>
+                    <li className='steelType'>Steel</li>
+                    <li className='poisonType'>Poison</li>
                     </ul>
                 </div>
             ]);
@@ -213,9 +213,9 @@ export default function TypeSelect() {
             return ([
                 <div className='weaknesses' key={typeValue}>
                     <ul>
-                    <li>Dark</li>
-                    <li>Psychic</li>
-                    <li>Steel</li>
+                    <li className='darkType'>Dark</li>
+                    <li className='psychicType'>Psychic</li>
+                    <li className='steelType'>Steel</li>
                     </ul>
                 </div>
             ]);
@@ -225,9 +225,9 @@ export default function TypeSelect() {
             return ([
                 <div className='weaknesses' key={typeValue}>
                     <ul>
-                    <li>Steel</li>
-                    <li>Ground</li>
-                    <li>Fighting</li>
+                    <li className='steelType'>Steel</li>
+                    <li className='groundType'>Ground</li>
+                    <li className= 'fightingType'>Fighting</li>
                     </ul>
                 </div>
             ]);
@@ -237,10 +237,10 @@ export default function TypeSelect() {
             return ([
                 <div className='weaknesses' key={typeValue}>
                     <ul>
-                    <li>Electric</li>
-                    <li>Fire</li>
-                    <li>Steel</li>
-                    <li>Water</li>
+                    <li className='electricType'>Electric</li>
+                    <li className= 'fireType'>Fire</li>
+                    <li className='steelType'>Steel</li>
+                    <li className='waterType'>Water</li>
                     </ul>
                 </div>
             ]);
@@ -250,9 +250,9 @@ export default function TypeSelect() {
             return ([
                 <div className='weaknesses' key={typeValue}>
                     <ul>
-                    <li>Dragon</li>
-                    <li>Grass</li>
-                    <li className='blue'>Water</li>
+                    <li className= 'dragonType'>Dragon</li>
+                    <li className= 'grassType'>Grass</li>
+                    <li className='waterType'>Water</li>
                     </ul>
                 </div>
             ]);
@@ -298,7 +298,7 @@ export default function TypeSelect() {
                             <MenuItem id='psychic' value={15}>Psychic</MenuItem>
                             <MenuItem id='rock' value={16}>Rock</MenuItem>
                             <MenuItem id='steel' value={17}>Steel</MenuItem>
-                            <MenuItem id='water' value={18}>Water</MenuItem>
+                            <MenuItem className='waterType' id='water' value={18}>Water</MenuItem>
 
                         </Select>
 
