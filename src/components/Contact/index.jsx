@@ -13,7 +13,7 @@ export default function Contact() {
 
             <h1 className= 'title'>CONTACT ME</h1>
             <p><a href='https://github.com/KSoto18'><GitHubIcon /> GITHUB</a></p>
-            <p><a href='mailto:dev.ksoto@gmail.com'><EmailIcon />  EMAIL</a></p>
+            <p><a href='mailto:khris.soto20@gmail.com'><EmailIcon />  EMAIL</a></p>
             
         </div>
 
